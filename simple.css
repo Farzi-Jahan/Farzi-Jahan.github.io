@@ -1,0 +1,19 @@
+}
+
+
+p   {
+/    font-size: 20px;
+    line-height: 150%;
+/    max-width: 540px;
+    max-width: 960px;
+    font-weight: 400;
+     color: #4B0082
+}
+h1,{
+/    color: #8B0000
+    font-weight: 400;
+}
+h2, h3, h4 {
+/    color: #006400;
+    font-weight: 400;
+}
