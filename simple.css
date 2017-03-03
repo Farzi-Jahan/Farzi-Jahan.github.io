@@ -5,7 +5,7 @@ div {
     }
     .textColor {
         color: #A52A2A;
-        background-color: #dcdcdc;
+        background-color: #f08080;
     }
     .borderColor {
         border-width: 3px;
@@ -13,7 +13,7 @@ div {
         border-color: #A52A2A;
     }
     .backgroundColor {
-        background-color: #dcdcdc;
+        background-color: #f08080;
         color: #FFE4C4;
     }
     .backgroundGradient {
@@ -30,7 +30,7 @@ div {
     .lighterColor > p, 
     .darkerColor > p {
         color: #A52A2A;
-        background: #dcdcdc;
+        background: #f08080;
         padding: 3px;
         border-radius: 3px;
         display: inline-block;
@@ -42,10 +42,9 @@ body {
 	color: #A52A2A;
 }
 h1 {
-  p.thick {
-    font-weight: bold;
     font-size: 40px;
     font-weight: 400;
+    color: #800000;
 }
 h2, h3, h4 {
     font-size: 30px;
@@ -63,7 +62,7 @@ ul.a {
     list-style-type: circle;
  }
 a:link, a:visited {
-    background-color: #dcdcdc;
+    background-color: #f08080;
     color: white;
     padding: 14px 25px;
     text-align: center; 
@@ -74,4 +73,5 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: red;
 }
+	
 </style>
