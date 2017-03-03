@@ -1,30 +1,76 @@
-* {
-	margin:0;
-	padding:0;
-}
+<style>
+div {
+        padding: 20px;
+        margin: 20px;
+    }
+    .textColor {
+        color: #A52A2A;
+        background-color: white;
+    }
+    .borderColor {
+        border-width: 3px;
+        border-style: solid;
+        border-color: #A52A2A;
+    }
+    .backgroundColor {
+        background-color: #A52A2A;
+        color: white;
+    }
+    .backgroundGradient {
+        background: linear-gradient(to bottom, white, #A52A2A);
+        color: white;
+    }
+
+    .lighterColor {
+        background: #C06969;
+    }
+    .darkerColor {
+        background: #731D1D;
+    }
+    .lighterColor > p, 
+    .darkerColor > p {
+        color: black;
+        background: white;
+        padding: 3px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+
 body {
-	font-family:Verdana, Geneva, sans-serif;
-	color:#666;
-	font-size:100%;
-    background-color: #FFCCE6;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
 }
-h1,{
-/    color: #8B0000
+h1 {
+  p.thick {
+    font-weight: bold;
+    font-size: 40px;
     font-weight: 400;
 }
 h2, h3, h4 {
-/    color: #006400;
+    font-size: 30px;
+    color: #006400;
     font-weight: 400;
 }
 p   {
-/    font-size: 20px;
+    font-size: 14px;
     line-height: 150%;
-/    max-width: 540px;
+    max-width: 540px;
     max-width: 960px;
     font-weight: 400;
-     color: #4B0082
  }
 ul.a {
     list-style-type: circle;
  }
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
 </style>
