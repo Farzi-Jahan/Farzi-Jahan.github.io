@@ -1,30 +1,69 @@
-* {
+{
 	margin:0;
 	padding:0;
 }
+
 body {
+    background-image: url("https://farzi-jahan.github.io/Harry%20Potter%20Background%2012.jpg");
 	font-family:Verdana, Geneva, sans-serif;
-	color:#666;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+	color: white;
 	font-size:100%;
-    background-color: #FFCCE6;
+
 }
-h1,{
-/    color: #8B0000
+<code css> body { background-color: black; color: black; } tw-link { color: DarkRed; } </code>
+/* unvisited link */
+a:link {
+    color: DarkSlateGray;
+}
+
+/* visited link */
+a:visited {
+    color: DarkSlateGray;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: black;
     font-weight: 400;
 }
-h2, h3, h4 {
-/    color: #006400;
-    font-weight: 400;
-}
-p   {
-/    font-size: 20px;
+
+p   
+
+{
+    font-size: 20px;
     line-height: 150%;
-/    max-width: 540px;
+    max-width: 540px;
     max-width: 960px;
     font-weight: 400;
-     color: #4B0082
+     color: black;
  }
+
 ul.a {
     list-style-type: circle;
  }
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+<audio controls loop>
+  <source src="https://play.spotify.com/track/1n8NKQRg8LVHy7oUhUgbFF" type="audio/ogg">
+  <source src="https://play.spotify.com/track/1n8NKQRg8LVHy7oUhUgbFF" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+}
 </style>
