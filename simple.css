@@ -5,7 +5,7 @@ div {
     }
     .textColor {
         color: #A52A2A;
-        background-color: #FFE4C4;
+        background-color: #dcdcdc;
     }
     .borderColor {
         border-width: 3px;
@@ -13,11 +13,11 @@ div {
         border-color: #A52A2A;
     }
     .backgroundColor {
-        background-color: #A52A2A;
+        background-color: #dcdcdc;
         color: #FFE4C4;
     }
     .backgroundGradient {
-        background: linear-gradient(to bottom, white, #A52A2A);
+        background: linear-gradient(to bottom, #DCDCDC, #A52A2A);
         color: #FFE4C4;
     }
 
@@ -30,7 +30,7 @@ div {
     .lighterColor > p, 
     .darkerColor > p {
         color: #A52A2A;
-        background: white;
+        background: #dcdcdc;
         padding: 3px;
         border-radius: 3px;
         display: inline-block;
@@ -63,7 +63,7 @@ ul.a {
     list-style-type: circle;
  }
 a:link, a:visited {
-    background-color: #f44336;
+    background-color: #dcdcdc;
     color: white;
     padding: 14px 25px;
     text-align: center; 
